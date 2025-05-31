@@ -1,0 +1,39 @@
+Here’s a breakdown of your queries:
+1) What is Snowflake, Why Snowflake & Features
+Snowflake is a cloud-based data warehousing platform designed for scalability, flexibility, and ease of use. Unlike traditional data warehouses, Snowflake separates storage and compute, allowing independent scaling and cost optimization. It supports multi-cloud environments (AWS, Azure, Google Cloud) and offers secure data sharing between organizations.
+Key Features:
+- Cloud-Native Architecture – Built for the cloud, ensuring seamless scalability.
+- Separation of Storage & Compute – Users can scale resources independently, optimizing costs.
+- Data Sharing – Enables secure and easy data exchange without complex data movement.
+- Security & Compliance – Includes encryption, role-based access control, and audit logging.
+- Zero-Copy Cloning – Allows cloning of databases or tables without duplicating data.
+- Global Availability – Supports multiple cloud providers and regions.
+2) Major Differences Between Traditional Data Warehouses (tWH) & Snowflake
+Traditional data warehouses (tWH) and Snowflake differ in several ways:
+| Feature | Traditional Data Warehouse (tWH) | Snowflake | 
+| Architecture | Monolithic, tightly coupled storage & compute | Decoupled storage & compute | 
+| Scalability | Limited scalability, requires manual intervention | Auto-scaling, elastic compute | 
+| Data Sharing | Complex, requires ETL processes | Seamless, secure data sharing | 
+| Performance | Can suffer from bottlenecks | Optimized query execution | 
+| Cost Model | Fixed infrastructure costs | Pay-as-you-go pricing | 
+
+
+3) What is Cloud & Types
+Cloud computing refers to on-demand access to computing resources (servers, storage, databases, networking) over the internet. It eliminates the need for physical infrastructure and offers scalability.
+Types of Cloud:
+- Public Cloud – Services are provided over the internet by third-party providers (AWS, Azure, Google Cloud).
+- Private Cloud – Dedicated infrastructure for a single organization.
+- Hybrid Cloud – Combination of public and private clouds for flexibility.
+- Community Cloud – Shared infrastructure for specific communities or industries.
+- Multi-Cloud – Use of multiple cloud providers for redundancy and optimization.
+4) Editions Available in Snowflake & Explanation
+Snowflake offers multiple editions, each catering to different business needs:
+| Edition | Features | 
+| Standard Edition | Basic features, full SQL support, secure data sharing | 
+| Enterprise Edition | Multi-cluster warehouses, extended time travel (90 days), encryption key rotation | 
+| Business Critical Edition | HIPAA & PCI compliance, private link support, failover & fallback | 
+| Virtual Private Snowflake (VPS) | Highest security, isolated environment for financial institutions | 
+
+
+Each edition builds upon the previous one, offering enhanced security, scalability, and compliance features.
+Would you like more details on any of these topics? 😊
