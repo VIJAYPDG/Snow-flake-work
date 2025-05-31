@@ -1,0 +1,1240 @@
+Skip to main content
+Google Classroom
+Classroom
+Snowflake Sep-23 Batch
+Home
+Calendar
+Enrolled
+To-do
+S
+Snowflake Sep-23 Batch
+Archived classes
+Settings
+Stream
+Classwork
+People
+Snowflake Sep-23 Batch
+Upcoming
+Woohoo, no work due soon!
+
+Announce something to your class
+
+Announcement: "SDLC Life cycle ----------------…"
+ViVision Technologies
+Created Nov 5, 2024Nov 5, 2024
+SDLC Life cycle
+                                     ----------------
+                                     
+                                     Waterfall
+                                     Agile
+                                     
+                                     https://youtu.be/75rtPEP7lEY
+                                     https://dev.azure.com/
+                                     
+                                     
+Description:   DOR (Definition of ready)
+     As a developer i need to create emoplyee database and under this i need to create below 2 tables
+ 1.  Employee
+ 2.  Dependents
+Insert/load the data into tables
+soure - internal stage
+destination - snowfalke
+
+   Acceptance criteria : DOD (Definition of done)
+
+USer/customer should be able to see the database and tables
+Power bi team they can access my tables for analytical purpose
+
+
+Agile:
+----------------
+
+1. Backlog Grooming -->  weekly once
+2. Sprint planning -->   2 weeks   (2 to 3 weeks)
+3. Daily Scrum /Standup -->  daily 15 to 30 mins  --> What u have done yesrtday , what u r going to do , issue?
+4. Sprint Demo --> 2 weeks once
+5. Retrospective --> W W W
+                What went well
+                What went wrong
+                What we need to improve
+
+Add class comment…
+
+Material: "UDF & Stored proc "
+ViVision Technologies posted a new material: UDF & Stored proc
+Created Oct 30, 2024Oct 30, 2024
+
+Announcement: "Snowflake Realtime Training Session-24…"
+ViVision Technologies
+Created Oct 30, 2024Oct 30, 2024
+Snowflake Realtime Training
+                                        Session-24
+-----------------------------------------------------------
+UDF & Stored procedures
+
+https://youtu.be/vh0kLpnVXn4
+
+Snowflake Session-27.txt
+Text
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-23…"
+ViVision Technologies
+Created Oct 29, 2024Oct 29, 2024
+Snowflake Realtime Training
+                                        Session-23
+-------------------------------------------------------------------------
+Data Migration Using ADF 
+https://youtu.be/clOxNvz8apw?si=9LilDXOOKvAQbPJP
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-22…"
+ViVision Technologies
+Created Oct 28, 2024Oct 28, 2024
+Snowflake Realtime Training
+                                        Session-22
+                                 -----------------------
+                                 
+                                     Views
+                                     
+                                     https://youtu.be/6n97ZxkIG9g
+                                     
+    employee --> 100 records  --> originial
+   
+        view -->  read only access
+   
+           Power bi download -- https://www.microsoft.com/en-us/download/details.aspx?id=58494
+
+Snowflake Realtime Training-22.txt
+Text
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-21…"
+ViVision Technologies
+Created Oct 25, 2024Oct 25, 2024
+Snowflake Realtime Training
+                                        Session-21
+                                 -----------------------
+                                 Streams
+                                 Data Masking
+                               
+Streams -- CDC Change data capture
+
+https://youtu.be/gxo8KluAsRs
+
+employee  --> s
+101
+102
+103
+104
+
+
+--Stram object
+
+emp --> Target  
+
+
+----------------Notes---------------------
+                            CDC--> Change Data Capture
+
+    1) Create Source tables (1,2,3)
+    2) Create Stream object
+    3) Create final table (Target)
+    4) Write an SQL to copy data from stream /source to Final table
+    5) On top of insert SQL write Task for 1 minutes
+       (* * * * *) / (0/1 * * * *)    
+    6) insert values into Source table  
+    7) verify the values are present in Stream object
+    8) Verify the final table
+                    (If the values are present in final table then CDC / stream is working )
+                   
+
+Data masking:
+
+Task -->
+
+
+--set policy to phone number last-4 digits only its visible
+   *******9168
+
+Snowflake Realtime Training-21.txt
+Text
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-20…"
+ViVision Technologies
+Created Oct 24, 2024Oct 24, 2024
+Snowflake Realtime Training
+                                        Session-20
+                                 -----------------------
+                                   Zero Copy Cloning
+                                   TASK
+                                   
+                                   https://youtu.be/dOWBrSQLtJU
+
+Snowflake Realtime Training-20.txt
+Text
+
+Add class comment…
+
+Material: "Interview Questions Part-1 & 2"
+ViVision Technologies posted a new material: Interview Questions Part-1 & 2
+Created Oct 23, 2024Oct 23, 2024
+
+Announcement: "Snowflake Realtime Training Session-19…"
+ViVision Technologies
+Created Oct 23, 2024Oct 23, 2024
+Snowflake Realtime Training
+                                        Session-19
+                                 -----------------------
+                                    Time Travel
+                                    Table Types
+                               
+                                https://youtu.be/Gt6o84BuEew
+                               
+                               
+                                   Zero Copy cloning
+                                   Data sharing
+                                   Data Masking
+                                   USF & Stored procedures
+                                   SDLC &  Project architectures
+                                   50 questions --> 5
+                                   
+Time Travel :  Is nothing to retrieve the historical data with in 90 days
+
+ emp --> 1st day --> 500 rows  
+         2nd --> 400  deleted
+           5 th day --> i want all 500 records
+           
+           
+3 ways to retrieve
+ offset
+ timestamp
+ queryid
+
+Snowflake Realtime Training-19.txt
+Text
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-18…"
+ViVision Technologies
+Created Oct 21, 2024Oct 21, 2024
+Snowflake Realtime Training
+                                        Session-18
+                                 -----------------------
+                                   SnowPipe
+                                   
+                                   https://youtu.be/DKkzGSJJYrk
+                                   
+    SnowPipe --> Continuus data ingestion we are going to use snowpipe
+                 
+                                   
+1. Create Free Trail account in AWS
+2. Create a bucket and load the files (CSV/JSON)
+3. Create IAM roles
+4. Create integration object in snowflake  and describe
+5. copy user arn and exrternal id and add the values into trustrelation ships (IAM)
+6. Create a stage and copy the data into a table verify
+7. Before step-6 you need to create a table
+
+
+8. Crate a pipe and add the copy command
+9. Describe the pipe and take the Notification ARN need to add that into a S3 properties.
+10. refresh the pipe and validate the results
+
+employee_data_1.csv
+CSV
+
+employee_data_2.csv
+CSV
+
+employee_data_3.csv
+CSV
+
+Snowflake Realtime Training-18.txt
+Text
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-17…"
+ViVision Technologies
+Created Oct 18, 2024Oct 18, 2024
+Snowflake Realtime Training
+                                        Session-17
+                                 -----------------------
+                                 AWS integration with Snowflake
+                                 
+                                 https://youtu.be/tg8ocOkCJoY
+                                                             
+1. Create Free Trail account in AWS
+2. Create a bucket and load the files (CSV/JSON)
+3. Create IAM roles
+4. Create integration object in snowflake  and describe
+5. copy user arn and exrternal id and add the values into trustrelation ships (IAM)
+6. Create a stage and copy the data into a table
+7. Before step-6 you need to create a table
+
+
+for practice attached all the files
+
+Snowflake Realtime Training-17.txt
+Text
+
+Musical_Instruments_5.json
+Unknown
+
+netflix_titles.csv
+CSV
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-16…"
+ViVision Technologies
+Created Oct 17, 2024Oct 17, 2024
+Snowflake Realtime Training
+                                        Session-16
+                                 -----------------------
+                                 
+                                 Working with semi structured Data
+                                 
+                                 Json/xml/parquest file formats
+                                 
+                                 
+                                 CSV
+                                 https://youtu.be/_Guxfi6xC_0
+                                 
+                                  Craeate AWS account -->  https://signin.aws.amazon.com/signup?request_type=register
+ 
+                             video for aws acct creation - https://youtu.be/CCaVgwVGlt8?si=IkDBwcD2NAKOfmTo
+                             
+                             
+                             
+                   
+
+---------------TASK -----------------
+
+    // Create file format and stage object
+   
+CREATE OR REPLACE FILE FORMAT MANAGE_DB.FILE_FORMATS.PARQUET_FORMAT
+    TYPE = 'parquet';
+
+CREATE OR REPLACE STAGE MANAGE_DB.EXTERNAL_STAGES.PARQUETSTAGE
+    url = 's3://snowflakeparquetdemo'  
+    FILE_FORMAT = MANAGE_DB.FILE_FORMATS.PARQUET_FORMAT;
+
+ --variant
+
+Add class comment…
+
+Assignment: "SQLs Practice 1-10 "
+ViVision Technologies posted a new assignment: SQLs Practice 1-10
+Created Oct 17, 2024Oct 17, 2024
+
+Announcement: "Snowflake Realtime Training Session-15…"
+ViVision Technologies
+Created Oct 15, 2024Oct 15, 2024
+Snowflake Realtime Training
+                                        Session-15
+                                 -----------------------
+                                 Working With Rejected/Eror records
+                                 https://youtu.be/c5r1WwICFUA
+                                 
+                                 
+1) Create a stage  and list the same (Verify the files )
+2) Create table with columns
+3) Using copy command to load the data
+
+ If there is any error it is going to fail
+
+ if it fails we can use on_error = continue (Skip the error records)
+     4785 --> 4781 loaded
+
+
+run the copy command with validation_mode = return_errors
+
+use results_scan table to get records into separate table first
+
+Once it is separated use split_part function to split the records and Correct the data
+
+Run the copy command to load valid data then add    rejected records into final table
+
+Snowflake Realtime Training-15.txt
+Text
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-14…"
+ViVision Technologies
+Created Oct 11, 2024Oct 11, 2024
+Snowflake Realtime Training
+                                        Session-14
+                                 -----------------------
+                                     Copy Options
+                                     https://youtu.be/TwVWgqqvnGQ
+                                     
+    AWS---> snowflke
+   
+      Stage -->  Load the data (copy )
+     
+     
+     
+      Stage --> Put /webui -->    Load data (copy)
+     
+     
+      https://signin.aws.amazon.com/signup?request_type=register
+     
+     AWS  Account Creation :
+      https://youtu.be/CCaVgwVGlt8?si=eXVQYKt34zO7s_bC
+
+Snowflake Realtime Training-14.txt
+Text
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-13…"
+ViVision Technologies
+Created Oct 10, 2024Oct 10, 2024
+Snowflake Realtime Training
+                                        Session-13
+                                 -----------------------
+                                    Stages & Types
+                                   
+                                    https://youtu.be/RcVmzGunjwc
+    Stage --> it is nothing but storage location before going to load we are keeping all the files into stage
+   
+   
+   
+    AWS -->   Stage -->  snowflake (Using copy command)
+   
+   
+    1) Internal Stages --> Local system
+    2) External Stages  -->  AWS , Azure , GCP ,Kafka , IOT , Sensars...etc
+
+TASK: 1) practice internal stages
+      2) Create a table and stage and load the daata
+                give me the count()
+
+-----AWS --> URL  -->   url='s3://bucketsnowflakes3';            --> source
+
+CREATE OR REPLACE TABLE OUR_FIRST_DB.PUBLIC.ORDERS (
+    ORDER_ID VARCHAR(30),
+    AMOUNT INT,
+    PROFIT INT,
+    QUANTITY INT,
+    CATEGORY VARCHAR(30),
+    SUBCATEGORY VARCHAR(30));
+
+Snowflake Realtime Training-13.txt
+Text
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-12…"
+ViVision Technologies
+Created Oct 9, 2024Oct 9, 2024
+Snowflake Realtime Training
+                                        Session-12
+                                 -----------------------
+                                      Data Loading
+                                    ETL Vs ELT
+                                    https://youtu.be/RH-yS2R4Wf0
+                                     
+    ETL
+    ----------
+    E- Extract
+    T- Transformation
+    L- Load
+   
+   
+    ELT
+    ------
+    E- Extract
+    L- Load
+    T- Transformation
+
+Snowflake Realtime Training-12.txt
+Text
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-11…"
+ViVision Technologies
+Created Oct 8, 2024Oct 8, 2024
+Snowflake Realtime Training
+                                        Session-11
+                                 -----------------------
+                                 Snowflake Architecture
+                                 Pricing
+                                 
+    https://docs.snowflake.com/en/user-guide/intro-key-concepts
+
+
+       1) Snowflake Architecutre
+    2) How pricing is going to Calculate
+    3) what are the different roles available in snowflake
+                                 
+            https://youtu.be/GHs-mcRm2LQ
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-10…"
+ViVision Technologies
+Created Oct 7, 2024Oct 7, 2024
+Snowflake Realtime Training
+                                        Session-10
+                                 -----------------------
+                                   SnowFlake
+                                 
+                                 
+    1) What is snowflake & Why snowflake & Features
+    2) Major differneces     between tWH & snowflake
+    3) What is clound and types
+    4) What are the editions its available in snowflake and explain
+   
+   
+   
+    vitechtalks@outlook.com
+   
+   
+    https://youtu.be/u-qaVdrNjsY
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-09…"
+ViVision Technologies
+Created Oct 2, 2024Oct 2, 2024
+Snowflake Realtime Training
+                                        Session-09
+                                 -----------------------
+                               Git & Github Working Session Doubt clearing 
+                                       
+                                       https://youtu.be/39b0eKZIWMA
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-08…"
+ViVision Technologies
+Created Oct 1, 2024Oct 1, 2024
+Snowflake Realtime Training
+                                        Session-08
+                                 -----------------------
+                                       Git & Github
+                                       
+              class Recording:          https://youtu.be/dju4DAxHt38  
+    git download -->  https://git-scm.com/downloads/win
+   
+   
+    Git & Git hub -->
+
+    https://youtu.be/o1YDW_jnvvk?si=K890P-ioR1q8KrIu 
+ 
+                                       
+   Git --> version control tool  , it is a software
+
+   Git hub --> Code repository     (it is one of the cloud platform )
+   
+   
+   
+   
+   vitech -->   1 week --> A   90%   you are on leave for 10 days
+   
+      B , c  
+     
+      local machine --> crashed --> loose all the data
+   
+    3 emps -->
+   
+   
+    We need to push your scripts/code into github
+   
+   
+    Git hub   --> git hub account
+    bitbucket --> user name /pwd
+    azure repos -->  create one microsoft account
+   
+   
+   
+    git download -->  https://git-scm.com/downloads/win
+   
+   
+    Git & Git hub -->
+    https://youtu.be/o1YDW_jnvvk?si=K890P-ioR1q8KrIu
+   
+   
+   
+    --->  git hub account
+   
+    1)  create an empty repository
+    2) clone the repo into your local system
+         git clone <url>
+         
+         
+   
+    3) inside the repo create 2 folders one is class another one is task
+   
+      place all the tasks/class notes into the corresponding  folders
+     
+     
+     
+   
+    code push:
+-----------------------------
+ 
+1)  right click on the repo name select git bash
+2)  git status
+3)  git add .       or git add <specific file name>
+4)  git status      --> everything it should be in green color
+5)  git commit -m "comments "
+6)  git push -u origin <branch name>
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-07…"
+ViVision Technologies
+Created Sep 30, 2024Sep 30, 2024
+Snowflake Realtime Training
+                                        Session-07
+                                 -----------------------
+                                       Set Operators
+                                       Windows Functions    
+
+                                    https://youtu.be/zF-ClXeNrzY
+
+
+  Set Operators :
+-----------------
+UNION
+UNION ALL
+INTERSECT
+MINUS
+
+
+ Windows Functions     :
+-----------------------
+ROW_NUMBER
+DENSE_RANK
+RANK
+
+1) LEAD AND LAG ???
+2) nUMBER FUNCTIONS AT LEAST 10
+
+Snowflake Realtime Training-07.txt
+Text
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-06…"
+ViVision Technologies
+Created Sep 27, 2024Sep 27, 2024
+Snowflake Realtime Training
+                                        Session-06
+                                 -----------------------
+                                      Joins
+                                     
+                                https://youtu.be/Qe9qJetTDn0
+                               
+    Joins :      In order to fetch the values from 2 or more tables by using common key
+
+
+   Inner Join
+   Left Join
+   Right join
+   full join
+   Self Join
+   Cross Join
+
+
+
+  Inner Join :  Fetch the matched values from both the tables
+   
+  Left Join  : Inner join +  Left side remaining values        
+                  or
+               print all the values from left side table and matched from right side table    
+
+  Right Join  : Inner join +  Right side remaining values        
+                  or
+               print all the values from right side table and matched from Left side table
+
+
+ Full Join :  Combination of Right + Left joins                
+ 
+ 
+ 
+ TASK:
+ -------------
+1. Create 2 tables based on excel sheet and perform all type of join and give me the count
+
+A    B
+------------
+1    1
+2    1
+4    1
+5    5
+5    6
+7    8
+9    9
+11    null
+12    null
+null    
+ inner join count --> ?
+ left join count --> ?
+ righ --?
+ full --?
+ 
+2. Self Join
+  Cross Join
+ 
+ 
+3. perform all 6-types of join with locations and countries table
+https://github.com/VITechTalks/Sql-Practice
+
+4. Material -  up to 30 pages ...
+
+Joins concept.xlsx
+Microsoft Excel
+
+Snowflake Realtime Training-06.txt
+Text
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-05…"
+ViVision Technologies
+Created Sep 26, 2024Sep 26, 2024
+Snowflake Realtime Training
+                                        Session-05
+                                 -----------------------
+                                 
+                                  Group by
+                                  Having  vs Where clause
+                                  Sub-quiries
+                                  case  
+                                 
+                                 https://youtu.be/_F3e0RMAtCw
+                                 
+                                 
+    AGE = 20  
+   
+   
+   
+    IF (AGE > 18)
+        PRINT ("ELIGIBLE")
+    ELSE
+       PRINT ("NOT ELIGIBLE")
+       
+       
+    CASE   WHEN  AGE> 18   THEN "ELIGIBLE FOR VOTE ELSE "NOT ELIGIBLE"
+
+      END
+
+
+
+    NUMBER
+----------------
+   200       - POSITIVE
+  -200
+   300
+   100
+   
+   
+   NUMBER > 0  
+   
+       
+       
+       
+TASK:
+--------------------
+
+
+
+TASK :   create table with below columns
+        num
+        ----
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        -10
+        11
+        -200
+        300
+        4000
+
+
+o/p:
+----
+  num        
+        ----
+        1           positive
+        2           positive
+        3
+        4
+        5
+        6
+        7
+        8
+        -10          negative
+        11
+        -200        negative
+        300
+        4000
+
+     
+
+--display positive numbers and negative numbers separate column
+
+positive    negative
+-------------------
+1         -10
+2          -200
+5
+7
+8
+11
+300
+4000
+
+
+
+
+
+3--- print days
+
+   ----
+        1           Monday  
+        2           Tues day  
+        3           wed
+        4
+        5
+        6
+        7            sunday
+        8
+        -10          Invalid day  
+        11           Invalid day
+        -200          
+        300
+        4000
+
+     
+
+
+--Based on department print highest salary
+--print all the employee data based on deptid who is having highest salary
+--print all the employee data based on deptid who is having lowest salary
+
+Snowflake Realtime Training-05.txt
+Text
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-04…"
+ViVision Technologies
+Created Sep 25, 2024Sep 25, 2024
+Snowflake Realtime Training
+                                        Session-04
+                                 -----------------------
+                                       DQL  
+                                       
+                                       https://youtu.be/W0YEC1BEyno
+                                       
+    SELECT    
+   
+
+    TASK
+//String functions attest   10 need to practice
+//up to 10 pages practice  from Material
+
+Snowflake Realtime Training-04.txt
+Text
+
+Add class comment…
+
+Material: "SQL Material "
+ViVision Technologies posted a new material: SQL Material
+Created Sep 24, 2024Sep 24, 2024
+
+Announcement: "Snowflake Realtime Training Session-03…"
+ViVision Technologies
+Created Sep 24, 2024Sep 24, 2024
+Snowflake Realtime Training
+                                        Session-03
+                                 -----------------------
+                               
+                                DDL --> Data Definition Language
+                                  CREATE
+                                  ALTER
+                                  DROP
+                                  Truncate    
+                                 
+                              https://youtu.be/QGUgEzr7xbA
+
+Snowflake Realtime Training-03.txt
+Text
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-02…"
+ViVision Technologies
+Created Sep 23, 2024Sep 23, 2024
+Snowflake Realtime Training
+                                        Session-02
+                                 -----------------------
+                                 Create Table & Load Data
+                                 https://youtu.be/H617ON_owLE
+
+
+
+TASK : Load all tables and provide the count using below link
+
+
+          https://github.com/VITechTalks/Sql-Practice/
+         
+    employees -> 40
+    countries --> 20
+    regions --> 4
+
+Snowflake Realtime Training-02.txt
+Text
+
+Add class comment…
+
+
+Announcement: "Snowflake Realtime Training Session-01…"
+ViVision Technologies
+Created Sep 23, 2024Sep 23, 2024
+Snowflake Realtime Training
+                                        Session-01
+                                 -----------------------
+
+                              Basic SQL
+https://youtu.be/XX4iLpjyJaA?si=FWUO8dsBddKRDGMc
+
+Snowflake Realtime Training-01.txt
+Text
+
+Add class comment…
+
+
+Announcement: "Snowflake Snowflake Realtime Training…"
+ViVision Technologies
+Created Sep 23, 2024Sep 23, 2024
+Snowflake     Snowflake Realtime Training
+Demo -: https://youtu.be/uZgTwSjRaWE?si=YUb7LUqdzYOGukRC
+Class-1:  https://youtu.be/XX4iLpjyJaA?si=FWUO8dsBddKRDGMc
+
+Add class comment…
+
+                               Snowflake Realtime Training 
+								        Session-05
+								 -----------------------
+								 
+								  Group by 
+								  Having  vs Where clause 
+								  Sub-quiries 
+								  case  
+								  
+								  
+								  
+								  
+	AGE = 20  
+	
+	
+	
+	IF (AGE > 18)
+	    PRINT ("ELIGIBLE")
+    ELSE 
+	   PRINT ("NOT ELIGIBLE")
+	   
+	   
+	CASE   WHEN  AGE> 18   THEN "ELIGIBLE FOR VOTE ELSE "NOT ELIGIBLE"
+
+      END 
+
+
+
+    NUMBER 
+----------------
+   200       - POSITIVE 
+  -200
+   300
+   100
+   
+   
+   NUMBER > 0  
+   
+	   
+	   
+	   
+TASK:
+--------------------
+
+
+
+TASK :   create table with below columns 
+        num 
+        ----
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        -10
+        11
+        -200
+        300
+        4000
+
+
+o/p:
+----
+  num         
+        ----
+        1           postive 
+        2           positive 
+        3
+        4
+        5
+        6
+        7
+        8
+        -10          negative 
+        11
+        -200        negative 
+        300
+        4000
+
+      
+
+--disply postive numbers and negative numbers separte column 
+
+postive    negative 
+-------------------
+1         -10
+2          -200
+5
+7
+8
+11
+300
+4000
+
+
+
+
+
+3--- print days 
+
+   ----
+        1           Monday  
+        2           Tues day  
+        3           wed
+        4
+        5
+        6
+        7            sunday 
+        8
+        -10          Invalid day  
+        11           Invalid day 
+        -200           
+        300
+        4000
+
+      
+
+
+--Based on department print higesht salary 
+--print all the employee data based on deptid who is having higest salary 
+--print all the employee data based on deptid who is having lowest salary 
+
+
+
+
+SQLs:
+---------------
+
+
+
+SELECT * FROM   HR.VITECH.EMPLOYEES 
+
+
+SELECT * FROM   EMPLOYEES 
+
+SELECT DISTINCT(DEPARTMENT_ID)  FROM EMPLO YEES ;
+
+
+
+SELECT DEPARTMENT_ID , COUNT(*)  FROM EMPLOYEES 
+           GROUP BY DEPARTMENT_ID 
+
+SELECT SALARY  , COUNT(*)  FROM EMPLOYEES 
+          GROUP BY SALARY 
+          
+           
+SELECT HIRE_DATE , COUNT(*)  FROM EMPLOYEES 
+                  GROUP BY HIRE_DATE
+                   ORDER BY 2 DESC 
+
+
+
+
+SELECT DEPARTMENT_ID , COUNT(*)  FROM EMPLOYEES 
+           GROUP BY DEPARTMENT_ID                    
+            hAVING  COUNT(*) > 5 
+
+             ORDER BY 2 DESC 
+
+
+---> IDENTIFY DUPLICATE NAMES 
+
+
+SELECT FIRST_NAME FROM EMPLOYEES
+
+
+
+
+SELECT DISTINCT(FIRST_NAME) FROM EMPLOYEES
+
+
+
+SELECT FIRST_NAME , COUNT(*) FROM EMPLOYEES 
+          GROUP BY FIRST_NAME 
+          HAVING COUNT(*)  > 1
+          
+
+
+
+SELECT DEPARTMENT_ID , COUNT(*)  FROM EMPLOYEES 
+           GROUP BY DEPARTMENT_ID 
+            hAVING  COUNT(*) > 5 
+             
+
+SELECT MAX(SALARY)  FROM EMPLOYEES              
+
+
+SELECT * FROM EMPLOYEES  WHERE SALARY  = (SELECT MAX(SALARY)  FROM EMPLOYEES )
+
+
+SELECT MAX(SALARY) FROM EMPLOYEES  WHERE SALARY  NOT IN (SELECT MAX(SALARY)  FROM EMPLOYEES )
+
+
+SELECT * FROM EMPLOYEES WHERE SALARY IN 
+(SELECT MAX(SALARY) FROM EMPLOYEES  
+   WHERE SALARY  NOT IN (SELECT MAX(SALARY)  FROM EMPLOYEES ))
+
+
+SELECT * FROM EMPLOYEES  WHERE DEPARTMENT_ID  IN (
+             SELECT DEPARTMENT_ID FROM EMPLOYEES 
+                        GROUP BY DEPARTMENT_ID 
+                        hAVING  COUNT(*) > 5 )
+
+
+
+SELECT DEPARTMENT_ID FROM EMPLOYEES 
+           GROUP BY DEPARTMENT_ID 
+            hAVING  COUNT(*) > 5 
+
+
+----------------------------
+CREATE TABLE dependents (
+	dependent_id INT ,
+	first_name VARCHAR (50) NOT NULL,
+	last_name VARCHAR (50) NOT NULL,
+	relationship VARCHAR (25) NOT NULL,
+	employee_id INT NOT NULL 
+
+    )
+
+
+   INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (1,'Penelope','Gietz','Child',206);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (2,'Nick','Higgins','Child',205);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (3,'Ed','Whalen','Child',200);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (4,'Jennifer','King','Child',100);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (5,'Johnny','Kochhar','Child',101);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (6,'Bette','De Haan','Child',102);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (7,'Grace','Faviet','Child',109);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (8,'Matthew','Chen','Child',110);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (9,'Joe','Sciarra','Child',111);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (10,'Christian','Urman','Child',112);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (11,'Zero','Popp','Child',113);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (12,'Karl','Greenberg','Child',108);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (13,'Uma','Mavris','Child',203);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (14,'Vivien','Hunold','Child',103);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (15,'Cuba','Ernst','Child',104);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (16,'Fred','Austin','Child',105);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (17,'Helen','Pataballa','Child',106);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (18,'Dan','Lorentz','Child',107);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (19,'Bob','Hartstein','Child',201);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (20,'Lucille','Fay','Child',202);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (21,'Kirsten','Baer','Child',204);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (22,'Elvis','Khoo','Child',115);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (23,'Sandra','Baida','Child',116);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (24,'Cameron','Tobias','Child',117);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (25,'Kevin','Himuro','Child',118);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (26,'Rip','Colmenares','Child',119);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (27,'Julia','Raphaely','Child',114);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (28,'Woody','Russell','Child',145);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (29,'Alec','Partners','Child',146);
+INSERT INTO dependents(dependent_id,first_name,last_name,relationship,employee_id) VALUES (30,'Sandra','Taylor','Child',176); 
+            
+
+SELECT * FROM DEPENDENTS
+SELECT * FROM EMPLOYEES
+
+
+SELECT * FROM EMPLOYEES   WHERE EMPLOYEE_ID   IN ( SELECT EMPLOYEE_ID FROM DEPENDENTS)
+
+
+
+
+SELECT * FROM EMPLOYEES   WHERE EMPLOYEE_ID  NOT  IN ( SELECT EMPLOYEE_ID FROM DEPENDENTS)
+
+
+SELECT * FROM EMPLOYEES A 
+      WHERE A. EMPLOYEE_ID IN (SELECT B.EMPLOYEE_ID FROM DEPENDENTS B  WHERE  A.EMPLOYEE_ID = B.EMPLOYEE_ID)
+
+
+SELECT * FROM EMPLOYEES 
+
+
+
+
+SELECT EMPLOYEE_ID , FIRST_NAME,SALARY 
+      , (CASE WHEN SALARY  > 10000 THEN 'Sr Software'   else  'Jr software'  end ) as designation
+
+FROM EMPLOYEES       
+
+	   
+	   
+Snowflake Realtime Training-05.txt
+Displaying Snowflake Realtime Training-05.txt.
